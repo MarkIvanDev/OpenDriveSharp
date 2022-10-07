@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <PackageId>OpenDriveSharp</PackageId>
+    <Description>.NET Wrapper for the OpenDrive API</Description>
+    <PackageTags>c# opendrive api</PackageTags>
+    <PackageVersion>0.3.0-prerelease1003202201858</PackageVersion>
+    <Authors>markivan.basto</Authors>
+    <Copyright>(c) 2022 Mark Ivan Basto</Copyright>
+    <PackageProjectUrl>https://github.com/MarkIvanDev/OpenDriveSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MarkIvanDev/OpenDriveSharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+    <PackageReference Include="System.Text.Json" Version="6.0.6" />
+  </ItemGroup>
+
+</Project>
